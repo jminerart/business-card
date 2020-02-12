@@ -10,6 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 /* the main container */
+/* 400,400i,500 */
 
 .front-side,
 .back-side {
@@ -24,7 +25,7 @@ body {
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color: rgb(206, 206, 236);
+  background-color: rgb(245, 239, 222);
 }
 
 .front-side{
@@ -39,20 +40,42 @@ body {
 
 }
 
-.secondary{
+.web-icon{
+  position: fixed;
+  margin-left: 130px;
+  margin-top: 50;
+
+}
+
+.mail-icon{
+  position: fixed;
+  margin-left: 250px;
+  margin-top: 50;
+
+}
+
+.instagram-icon{
+  position: fixed;
+  margin-top: 50;
+
+}
+
+.links{
   display: grid;
   position: relative;
   margin-left:30px;
+  font-weight: 500
 
-}
-
-
-
-/* h3{
-  margin-bottom: 0px;
 }
 
 h5{
-  margin-top: 0px;
-  padding-top: 0px;
-} */
+  position: relative;
+  margin-top: 30%;
+  margin-left: 32%;
+  font-weight: 500;
+  color: rgb(245, 239, 222)
+}
+h4{
+  font-weight:500;
+
+}
